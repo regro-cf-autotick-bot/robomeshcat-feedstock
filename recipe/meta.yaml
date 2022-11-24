@@ -1,5 +1,5 @@
 {% set name = "RoboMeshCat" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/petrikvladimir/RoboMeshCat/archive/v{{ version }}.tar.gz
-  sha256: 1c1dd7abb0b581aa47ef851942d0bb17fd64dd9d1c3df9a1e0923a7f11f5e5ac
+  sha256: d97edea1691fa6346474356a55aca5a9750b73a3990c288916017513498953d8
 
 build:
   noarch: python
@@ -36,7 +36,7 @@ test:
 
 about:
   home: https://github.com/petrikvladimir/RoboMeshCat
-  summary: 'Set of utilities for visualizing robots in web-based visualized MeshCat.'
+  summary: Set of utilities for visualizing robots in web-based visualizer MeshCat.
   license: BSD-2-Clause
   license_file: LICENSE
 
