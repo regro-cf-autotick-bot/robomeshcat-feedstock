@@ -7,7 +7,7 @@ Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/robomeshcat-feedstock/blob/main/LICENSE.txt)
 
-Summary: Set of utilities for visualizing robots in web-based visualized MeshCat.
+Summary: Set of utilities for visualizing robots in web-based visualizer MeshCat.
 
 Current build status
 ====================
