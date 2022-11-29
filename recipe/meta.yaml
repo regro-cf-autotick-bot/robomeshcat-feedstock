@@ -1,5 +1,5 @@
 {% set name = "RoboMeshCat" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/petrikvladimir/RoboMeshCat/archive/v{{ version }}.tar.gz
-  sha256: b85c0c7e03636319c724761dd88f59e3679e4e37d3f64abcadcd01491bcb4168
+  sha256: ecaadf8e125a0fe492310c7ee127a20dcdc557bd815c35d7c3365ced2078b0f4
 
 build:
   noarch: python
